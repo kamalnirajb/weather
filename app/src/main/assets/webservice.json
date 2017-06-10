@@ -1,0 +1,30 @@
+{
+  "login" : {
+    "method": "POST",
+    "url": "users/login",
+    "loader" : "Loading...",
+    "headers": {
+    }
+  },
+  "register": {
+    "method": "POST",
+    "url": "users/register",
+    "loader" : "Loading...",
+    "headers": {
+    }
+  },
+  "weather_today" : {
+    "method": "GET",
+    "url": "data/2.5/weather?q={ADDRESS}&appid={APIKEY}&units=metric",
+    "loader" : "Loading...",
+    "headers": {
+    }
+  },
+  "weather_historyy" : {
+    "method": "GET",
+    "url": "data/2.5/forecast?q={ADDRESS}&appid={APIKEY}&units=metric",
+    "loader" : "Loading...",
+    "headers": {
+    }
+  }
+}

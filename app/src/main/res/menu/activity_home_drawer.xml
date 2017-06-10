@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item android:title="@string/weather">
+        <menu>
+            <item
+                android:id="@+id/nav_weather_today"
+                android:icon="@drawable/ic_weather_today"
+                android:title="@string/weather_today"/>
+            <item
+                android:id="@+id/nav_weather_history"
+                android:icon="@drawable/ic_weather_history"
+                android:title="@string/weather_history"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_sing_out"
+        android:title="@string/sign_out"/>
+
+</menu>

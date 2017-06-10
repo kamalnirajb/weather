@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_email_required">Please enter the email id.</string>
+    <string name="error_password_required">Please enter the password.</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="network_error">Internet connection is not available. Please enable wifi/mobile data.</string>
+    <string name="service_unavailable">Service is currently unavailable. Please try again later.</string>
+    <string name="loading">Loading…</string>
+    <string name="ok">Ok</string>
+    <string name="action_register">Register</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragmentchooser">FRAGMENTCHOOSER</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="error_password_confirmpassword_same"><![CDATA[Password & confirm password should be same.]]></string>
+    <string name="weather">Weather</string>
+    <string name="weather_today">Weather Today</string>
+    <string name="weather_history">Weather Forecast</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sunrise">(Sunrise)</string>
+    <string name="sunset">(Sunset)</string>
+    <string name="address">Address</string>
+
+</resources>

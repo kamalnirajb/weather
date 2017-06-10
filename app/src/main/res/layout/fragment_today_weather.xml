@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.weatherapp.fragments.weathermanagement.TodayWeatherFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txt_date_today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/dim14sp"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_date_today"
+            android:layout_centerHorizontal="true"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/txt_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/address"
+                    android:textSize="@dimen/dim20sp"
+                    android:textAlignment="center"/>
+
+                <LinearLayout
+                    android:id="@+id/layout_temprature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/img_weather_icon"
+                        android:layout_width="@dimen/dim_main_weather_icon"
+                        android:layout_height="@dimen/dim_main_weather_icon"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_weather_today"
+                        tools:ignore="VectorDrawableCompat"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/txt_temprature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/dim30sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true"
+            android:layout_below="@id/card_info">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/layout_sunrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/img_sunrise"
+                        android:layout_width="@dimen/dim_weather_icon"
+                        android:layout_height="@dimen/dim_weather_icon"
+                        android:layout_gravity="center_horizontal"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_sunrise"
+                        tools:ignore="VectorDrawableCompat"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/txt_sunrise"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/dim14sp"/>
+                </LinearLayout>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/txt_weather_today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="5dp"
+                    android:text="@string/weather_today"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/dim20sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:id="@+id/layout_sunset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/img_sunset"
+                        android:layout_width="@dimen/dim_weather_icon"
+                        android:layout_height="@dimen/dim_weather_icon"
+                        android:layout_gravity="center_horizontal"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_sunset"
+                        tools:ignore="VectorDrawableCompat"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/txt_sunset"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/dim14sp"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</FrameLayout>

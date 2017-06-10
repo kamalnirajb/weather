@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "67376863846",
+    "project_id": "weatherapp-64c03"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67376863846:android:fc6fe5f9c26f5b89",
+        "android_client_info": {
+          "package_name": "com.weatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67376863846-h2jqtvvr54tejgs4cer3r9bcm2rje8b7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weatherapp",
+            "certificate_hash": "d38b8fae567ad079241d0fe4d087a536250ae16c"
+          }
+        },
+        {
+          "client_id": "67376863846-nl5n2k4j0e2mnuo1m9sdbosq3l7iur58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4U10p0G-uWoAKGL7zrfQelBHx1ylN2YU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
